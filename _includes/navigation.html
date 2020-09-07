@@ -1,0 +1,43 @@
+<nav class="mb-1 navbar smart-scroll navbar-expand-lg navbar-dark lighten-1" style="background-color: #1e1e1e;">
+    <a class="navbar-brand" href="index.html">
+      <img src="./assets/images/nss_logo.png" width="50 pc" padding="0" margin="0" alt=""> NSS IIT-Hyderabad
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-555"
+      aria-controls="navbarSupportedContent-555" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent-555">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item {% if page.url =="/" or page.url =="/index.html" %} active {% endif %}">
+          <a class="nav-link" href="index.html#about">ABOUT
+            {% if page.url =="/" or page.url =="/index.html" %} <span class="sr-only">(current)</span> {% endif %}
+          </a>
+        </li>
+        <li class="nav-item {% if page.url =="/events.html" %} active {% endif %}">
+          <a class="nav-link" href="events.html">EVENTS
+            {% if page.url =="/events.html" %} <span class="sr-only">(current)</span> {% endif %}
+          </a>
+        </li>
+        <li class="nav-item {% if page.url =="/team.html" %} active {% endif %}">
+          <a class="nav-link" href="team.html">TEAM
+            {% if page.url =="/team.html" %} <span class="sr-only">(current)</span> {% endif %}
+          </a>
+        </li>
+        <li class="nav-item {% if page.url =="/gallery.html" %} active {% endif %}">
+          <a class="nav-link" href="gallery.html">GALLERY
+            {% if page.url =="/gallery.html" %} <span class="sr-only">(current)</span> {% endif %}
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html#contact_us">CONTACT US</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav ml-auto nav-flex-icons">
+        <li class="nav-item avatar">
+          <a class="nav-link p-0" href="http://nss.iith.ac.in/hours_portal/" target="_blank">
+            <button type="button" class="btn btn-danger">HOUR'S PORTAL</button>
+          </a>
+        </li>
+      </ul>
+    </div>
+    </nav>
