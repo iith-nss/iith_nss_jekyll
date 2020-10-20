@@ -16,6 +16,7 @@ if ($('.smart-scroll').length > 0) { // check if element exists
     });
 }
 
+
 $(function() {
     function after_form_submitted(data) {
         if(data.result == 'success') {
