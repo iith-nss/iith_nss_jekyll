@@ -20,6 +20,7 @@ nav a {
 }
 .nav-item {
     font-size: 0.8em;
+    text-align: center;
 }
 
 .btn-danger {
