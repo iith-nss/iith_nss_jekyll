@@ -54,7 +54,11 @@ title: Home
 
 
   <!--CONTACT US-->
-  <div class="container" id="contact_us">
+
+  <div class="col-md-12 d-flex justify-content-center" id="contact_us" style="padding: 0px 10px;">
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe0yzkeDjDygCZ6Kdxgs3EaZByiJqrKcMDvBXPCWCRfjWXQXQ/viewform?usp=sf_link&amp;embedded=true&amp;usp=embed_googleplus" style="border: 0; width: 96%; height: 825px;" allowfullscreen></iframe>
+  </div>
+  <!--<div class="container" id="contact_us">
     <div class="row d-flex justify-content-center">
       <div class="col-xl-2 col-lg-1 col-md-1"></div>
         <div class="col-xl-8 col-lg-10 col-md-10 col-sm-12">
@@ -88,4 +92,4 @@ title: Home
         </div>
         <div class="col-xl-2 col-lg-1 col-md-1"></div>
     </div>
-</div>
+</div>-->
