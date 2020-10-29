@@ -98,7 +98,7 @@ html {
   padding: 0;
 }
 /* additional sections */
-#home {
+#home-desktop {
   background: url(../images/Cover-4.jpg) no-repeat center center fixed; 
   display: table;
   height: 100%;
@@ -109,12 +109,27 @@ html {
   -o-background-size: cover;
   background-size: cover;
 }
-/*@media (max-width: 1800px){
-  #home {
-    background: url(../images/Cover-4.jpg) no-repeat center center;
-    height: 50vh;
+#home-mobile {
+  background: url(../images/mobile_view.jpg) no-repeat center center fixed; 
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+@media (min-width: 768px) {
+  .small {
+    display: none !important;
   }
-}*/
+}
+@media (max-width: 767px) {
+  .large {
+    display: none !important;
+  }
+}
 
 .lead {
   color: rgb(101, 101, 101);

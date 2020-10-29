@@ -16,6 +16,16 @@ if ($('.smart-scroll').length > 0) { // check if element exists
     });
 }
 
+//close navbar or click outside
+$(document).ready(function () {
+    $(document).click(function (event) {
+        var click = $(event.target);
+        var _open = $(".navbar-collapse").hasClass("show");
+        if (_open === true && !click.hasClass("navbar-toggler")) {
+            $(".navbar-toggler").click();
+        }
+    });
+});
 
 $(function() {
     function after_form_submitted(data) {
