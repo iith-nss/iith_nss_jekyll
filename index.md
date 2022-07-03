@@ -56,7 +56,7 @@ title: Home
               <p class="lead">
                 NSS at IIT Hyderabad is aimed at providing each student with a significant context in which he/she can reach a deeper understanding of social reality in India today. 
                 NSS encourages the meaning of the life through service in today's changing world.The volunteers of this organisation have the motto “Not me, but you”. 
-                This is the showcase for the belief in selflessness and is reflected in their work to ensure everyone one in need gets help making true the words that we rise by uplifting others. 
+                This is the showcase for the belief in selflessness and is reflected in their work to ensure everyone in need gets help making true the words that we rise by uplifting others. 
                 The activities taken up by the volunteers from IITH include Vidyadaan, Cloth Donation, Blood donation camps and orphanage visits.
               </p>
           </div>
@@ -66,9 +66,3 @@ title: Home
 </section>
   
 
-
-  <!--CONTACT US-->
-
-  <div class="col-md-12 d-flex justify-content-center" id="contact_us" style="padding: 0px 10px;">
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe0yzkeDjDygCZ6Kdxgs3EaZByiJqrKcMDvBXPCWCRfjWXQXQ/viewform?usp=sf_link&amp;embedded=true&amp;usp=embed_googleplus" style="border: 0; width: 96%; height: 825px;" allowfullscreen></iframe>
-  </div>
