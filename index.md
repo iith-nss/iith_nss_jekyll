@@ -2,6 +2,7 @@
 layout: default
 title: Home
 ---
+
 <div id="home-desktop" class="home large" style="padding-top: -24px">
       <div class="text-vcenter">
         <h1 class="animated fadeIn mb-3" style="color: white;"></h1>
@@ -64,5 +65,3 @@ title: Home
       <div class="col-xl-2 col-lg-1 col-md-1"></div>
   </div>
 </section>
-  
-

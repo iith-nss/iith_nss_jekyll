@@ -1,27 +1,34 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  {% include header.html %}
 
-{% include header.html %}
+  <body>
+    {% include navigation.html %} {{ content }} {% include footer.html %}
 
-<body>
-
-  {% include navigation.html %}
-
-  {{ content }}
-
-  {% include footer.html %}
-
-  <!-- jQuery -->
-  <script type="text/javascript" src="{{site.baseurl}}/assets/js/jquery.min.js"></script>
-  <!-- Bootstrap tooltips -->
-  <script type="text/javascript" src="{{site.baseurl}}/assets/js/popper.min.js"></script>
-  <!-- Bootstrap core JavaScript -->
-  <script type="text/javascript" src="{{site.baseurl}}/assets/js/bootstrap.min.js"></script>
-  <!-- MDB core JavaScript -->
-  <script type="text/javascript" src="{{site.baseurl}}/assets/js/mdb.min.js"></script>
-  <!-- Your custom scripts (optional) -->
-  <script type="text/javascript" src="{{site.baseurl}}/assets/js/script.js"></script>
-
-</body>
-
+    <!-- jQuery -->
+    <script
+      type="text/javascript"
+      src="{{site.baseurl}}/assets/js/jquery.min.js"
+    ></script>
+    <!-- Bootstrap tooltips -->
+    <script
+      type="text/javascript"
+      src="{{site.baseurl}}/assets/js/popper.min.js"
+    ></script>
+    <!-- Bootstrap core JavaScript -->
+    <script
+      type="text/javascript"
+      src="{{site.baseurl}}/assets/js/bootstrap.min.js"
+    ></script>
+    <!-- MDB core JavaScript -->
+    <script
+      type="text/javascript"
+      src="{{site.baseurl}}/assets/js/mdb.min.js"
+    ></script>
+    <!-- Your custom scripts (optional) -->
+    <script
+      type="text/javascript"
+      src="{{site.baseurl}}/assets/js/script.js"
+    ></script>
+  </body>
 </html>
