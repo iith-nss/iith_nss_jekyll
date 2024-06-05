@@ -31,7 +31,7 @@ title: Events
         <!-- Card content -->
         <div class="card-body card-body-cascade text-center">
           <!-- Trigger the modal on click -->
-          <a href="#" data-toggle="modal" data-target="#myModal">
+          <a href="#" data-toggle="modal" data-target="#myModal1">
             <!-- Title -->
             <h4 class="card-title text-dark"><strong>ONGOING/UPCOMING EVENTS</strong></h4>
             <!-- Subtitle -->
@@ -79,10 +79,43 @@ title: Events
     </div>
   </div>
 </div>
-    <!-- Card -->
+<!-- Card -->
+
+<div class="row">
+  <div class="container col-md-5" style="padding: 10px 0px 20px">
+    <div class="card card-cascade wider reverse">
+      <!-- Card image -->
+      <div class="view view-cascade overlay">
+        <img
+          class="card-img-top"
+          src="./assets/images/events/Registrationday/DSC_0092.JPG"
+          alt="Card image cap"
+        />
+        <div class="mask rgba-white-slight"></div>
+      </div>
+      <!-- Card content -->
+      <div class="card-body card-body-cascade text-center">
+        <!-- Trigger the modal on click -->
+        <a href="#" data-toggle="modal" data-target="#myModal2">
+          <!-- Title -->
+          <h4 class="card-title text-dark"><strong>PAST EVENTS</strong></h4>
+          <!-- Subtitle -->
+          <h6 class="font-weight-bold indigo-text py-2">
+            &quot;Don't miss out on these events! Click here to find out more about them...&quot;
+          </h6>
+          <!-- Text -->
+          <p class="card-text">
+            Find information regarding the events that were conducted by NSS IIT Hyderabad in the current academic year. The theme and details for each event (online/offline) along with the concerned timings can be found here.
+          </p>
+        </a>
+      </div>
+    </div>
+  </div>
+  <!-- Card -->
+</div>
 
 <!-- Modal -->
-<div id="myModal" class="modal fade" role="dialog">
+<div id="myModal1" class="modal fade" role="dialog">
   <div class="modal-dialog modal-lg">
 
     <!-- Modal content-->
@@ -95,6 +128,28 @@ title: Events
         <a href="events/online-events.html"><button type="button" class="btn btn-primary btn-lg text-center">Online Events</button></a>
         <br>
         <a href="events/offline-events.html"><button type="button" class="btn btn-primary btn-lg text-center">Offline Events</button></a>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div id="myModal2" class="modal fade" role="dialog">
+  <div class="modal-dialog modal-lg">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title">Choose from one of the options given below: </h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <a href="events/past-online-events.html"><button type="button" class="btn btn-primary btn-lg text-center">Online Events</button></a>
+        <br>
+        <a href="events/past-offline-events.html"><button type="button" class="btn btn-primary btn-lg text-center">Offline Events</button></a>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
