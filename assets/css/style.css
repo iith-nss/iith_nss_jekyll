@@ -99,7 +99,7 @@ html {
 }
 /* additional sections */
 #home-desktop {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/Cover-4.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../images/Cover-4.jpg);
   background-position: center;
   background-size: cover;
   display: table;
@@ -278,7 +278,7 @@ h2 {
 .faq_area {
     position: relative;
     z-index: 1;
-    background-color: #f5f5ff;
+    /* background-color: #f5f5ff; */
 }
 
 .faq-accordian {
