@@ -5,7 +5,7 @@ title: Home
 
 <div id="home-desktop" class="home large" style="padding-top: -24px">
       <div class="text-vcenter">
-        <h1 class="animated fadeIn mb-3" style="color: white;"></h1>
+        <h1 class="animated fadeIn mb-3" style="color: white;">NSS IIT HYDERABAD</h1>
         <a href="#about" style="text-decoration: none;">
         <div class="arrow">
           <span></span>

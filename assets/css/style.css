@@ -104,10 +104,9 @@ html {
   height: 100%;
   position: relative;
   width: 100%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
+  background-blend-mode: multiply; 
+  filter: brightness(0.8) contrast(1.2);
 }
 #home-mobile {
   background: url(../images/mobile_view.jpg) no-repeat center center fixed; 
@@ -115,10 +114,9 @@ html {
   height: 100%;
   position: relative;
   width: 100%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
+  background-blend-mode: multiply; 
+  filter: brightness(0.8) contrast(1.2);
 }
 @media (min-width: 768px) {
   .small {
