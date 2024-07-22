@@ -32,14 +32,14 @@ title: Home
 <!-- /first section -->
 
 <!--ABOUT NSS-->
-<section class="container-fluid" id="about" style="padding-top: 15px;">
+<section class="container-fluid bg-dark" id="about" style="padding-top: 15px;">
   <div class="row justify-content-center">
     <div class="col-xl-2 col-lg-1 col-md-1"></div>
       <div class="col-xl-8 col-lg-10 col-md-10 col-sm-12">
           <div class="text-center justify-content-center">
-              <h2 class="about_heading display-5">About NSS</h2>
+              <h2 class="about_heading display-5 text-light">About NSS</h2>
               <hr class="accent-2 mb-4 mt-0 mx-auto" style="width: 80px; background-color: #ff5e5e; height: 3px;">
-              <p class="lead">
+              <p class="text-light">
                 National Service Scheme is a social service program sponsored by the Indian Government that sprang from the belief of the Mahatma that the difference between 
                 what we do and what we are capable of doing would solve most of our problems. IIT Hyderabad has had its unit of NSS since 2008, the founding year of the institute.
               </p>
@@ -54,7 +54,7 @@ title: Home
           <div class="text-center my-3">
               <h2 class="about_heading display-5">What we do?</h2>
               <hr class="accent-2 mb-4 mt-0 mx-auto" style="width: 80px; background-color: #ff5e5e; height: 3px;">
-              <p class="lead">
+              <p class="text-light">
                 NSS at IIT Hyderabad is aimed at providing each student with a significant context in which he/she can reach a deeper understanding of social reality in India today. 
                 NSS encourages the meaning of the life through service in today's changing world.The volunteers of this organisation have the motto “Not me, but you”. 
                 This is the showcase for the belief in selflessness and is reflected in their work to ensure everyone in need gets help making true the words that we rise by uplifting others. 

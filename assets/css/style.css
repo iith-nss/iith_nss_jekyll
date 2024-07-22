@@ -99,7 +99,7 @@ html {
 }
 /* additional sections */
 #home-desktop {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/Cover-4.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/Cover-4.jpg);
   background-position: center;
   background-size: cover;
   display: table;
@@ -108,7 +108,7 @@ html {
   width: 100%;
 }
 #home-mobile {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/Cover-4.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/Cover-4.jpg);
   background-position: center;
   background-size: cover; 
   display: table;
