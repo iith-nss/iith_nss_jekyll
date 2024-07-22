@@ -18,7 +18,7 @@ title: Home
 
 <div id="home-mobile" class="home small" style="padding-top: -24px">
       <div class="text-vcenter">
-        <h1 class="animated fadeIn mb-3" style="color: white;"></h1>
+        <h1 class="animated fadeIn mb-3" style="color: white;">NSS IIT HYDERABAD</h1>
         <a href="#about" style="text-decoration: none;">
         <div class="arrow">
           <span></span>
@@ -48,7 +48,7 @@ title: Home
       <div class="col-xl-2 col-lg-1 col-md-1"></div>
   </div>
 
-  <div class="row justify-content-center pb-2">
+  <div class="row justify-content-center">
       <div class="col-xl-2 col-lg-1 col-md-1"></div>
       <div class="col-xl-8 col-lg-10 col-md-10 col-sm-12">
           <div class="text-center my-3">

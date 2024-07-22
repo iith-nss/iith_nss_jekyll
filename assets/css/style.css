@@ -71,7 +71,7 @@ nav a {
 html, body {
     height: 100%;
     width: 100%;
-    background-color: black;
+    background-color: #212121;
 }
 html {
   scroll-behavior: smooth;
