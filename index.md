@@ -48,11 +48,11 @@ title: Home
       <div class="col-xl-2 col-lg-1 col-md-1"></div>
   </div>
 
-  <div class="row justify-content-center">
+  <div class="row justify-content-center pb-2">
       <div class="col-xl-2 col-lg-1 col-md-1"></div>
       <div class="col-xl-8 col-lg-10 col-md-10 col-sm-12">
           <div class="text-center my-3">
-              <h2 class="about_heading display-5">What we do?</h2>
+              <h2 class="about_heading display-5 text-light">What we do?</h2>
               <hr class="accent-2 mb-4 mt-0 mx-auto" style="width: 80px; background-color: #ff5e5e; height: 3px;">
               <p class="text-light">
                 NSS at IIT Hyderabad is aimed at providing each student with a significant context in which he/she can reach a deeper understanding of social reality in India today. 
