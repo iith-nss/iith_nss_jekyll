@@ -40,8 +40,8 @@ nav a {
   display: block;
   width: 20px;
   height: 20px;
-  border-bottom: 2px solid rgb(0, 0, 0);
-  border-right: 2px solid rgb(0, 0, 0);
+  border-bottom: 2px solid #e0e0e0;
+  border-right: 2px solid #e0e0e0;
   transform: rotate(45deg);
   margin: -20px;
   animation: animate 2s infinite;
@@ -99,7 +99,7 @@ html {
 }
 /* additional sections */
 #home-desktop {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../images/Cover-4.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../images/Cover-4.jpg);
   background-position: center;
   background-size: cover;
   display: table;
@@ -108,7 +108,7 @@ html {
   width: 100%;
 }
 #home-mobile {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/Cover-4.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../images/Cover-4.jpg);
   background-position: center;
   background-size: cover; 
   display: table;
