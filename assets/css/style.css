@@ -99,24 +99,22 @@ html {
 }
 /* additional sections */
 #home-desktop {
-  background: url(../images/Cover-4.jpg) no-repeat center center fixed; 
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/Cover-4.jpg);
+  background-position: center;
+  background-size: cover;
   display: table;
   height: 100%;
   position: relative;
   width: 100%;
-  background-size: cover;
-  background-blend-mode: multiply; 
-  filter: brightness(0.8) contrast(1.2);
 }
 #home-mobile {
-  background: url(../images/mobile_view.jpg) no-repeat center center fixed; 
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/Cover-4.jpg);
+  background-position: center;
+  background-size: cover; 
   display: table;
   height: 100%;
   position: relative;
   width: 100%;
-  background-size: cover;
-  background-blend-mode: multiply; 
-  filter: brightness(0.8) contrast(1.2);
 }
 @media (min-width: 768px) {
   .small {
