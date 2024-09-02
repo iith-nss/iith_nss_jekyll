@@ -81,7 +81,7 @@ title: Home
     </div>
   </div>
 
-  <div class="container contact">
+  <div class="container contact" id="Contact_us_region">
     <div class="row align-items-center d-flex justify-content-center">
       <div class="col-12 col-lg-5 col-md-7 mb-4">
         <div class="mb-4">
