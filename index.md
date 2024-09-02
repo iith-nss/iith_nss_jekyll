@@ -75,13 +75,13 @@ title: Home
       <div class="col-xl-2 col-lg-1 col-md-1"></div>
   </div>
 
-  <div class="home" id="contact">
+  <div class="home" id="Contact_us_region">
     <div class="container" style="padding-top: 70px">
       <h1 class="animated fadeIn display-4 mb-3 text-center text-light">CONTACT US</h1>
     </div>
   </div>
 
-  <div class="container contact" id="Contact_us_region">
+  <div class="container contact">
     <div class="row align-items-center d-flex justify-content-center">
       <div class="col-12 col-lg-5 col-md-7 mb-4">
         <div class="mb-4">
