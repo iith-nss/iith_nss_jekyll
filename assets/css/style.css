@@ -114,10 +114,10 @@ html {
   color: white;
   white-space: nowrap;
   overflow: hidden;
-  width: fit-content; /* Constrain the width to the text content */
-  display: inline-block; /* Make sure the element fits the content */
+  width: 0; /* Start with no width */
+  display: inline-block;
   border-right: 0.15em solid #ffc107;
-  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+  animation: typing 3.5s steps(40, end) 0.5s forwards, blink-caret 0.75s step-end infinite;
 }
 
 @keyframes typing {
