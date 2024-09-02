@@ -48,11 +48,10 @@
       <li class="nav-item">
         <a class="nav-link" href="https://nss.iith.ac.in/evidyadaan/" target="_blank">eVIDYADAAN</a>
       </li>
-      <!-- <li class="nav-item">
-        <a class="nav-link" href="{{site.baseurl}}/contact.html">CONTACT US</a>
-      </li> -->
-      <li class="nav-item">
-        <a class="nav-link" href="#Contact_us_region">CONTACT US</a>
+      <li class="nav-item {% if page.url ==" /" or page.url=="/index.html" %} active {% endif %}">
+        <a class="nav-link" href="{{site.baseurl}}/index.html#contact">CONTACT US
+          {% if page.url =="/" or page.url =="/index.html" %} <span class="sr-only">(current)</span> {% endif %}
+        </a>
       </li>
       <li class="nav-item">
         <a href="{{site.baseurl}}/faq.html" class="nav-link">FAQs</a>

@@ -27,9 +27,19 @@ nav a {
     size: 40pc;
     border-radius: 50px;
 }
-/*NAVBAR ends*/
+/*NAVBAR ends*/.col-12
+  {
+    max-width: 85%;
+  }
 
 /*Falling down arrow*/
+.arrow span {
+  border-color: #ffc107;
+}
+.arrow:hover span {
+  border-color: #ff5e5e;
+}
+
 .arrow{
   position: absolute;
   top: 85%;
@@ -98,6 +108,48 @@ html {
   padding: 0;
 }
 /* additional sections */
+.typing-effect-desktop, .typing-effect-mobile {
+  font-size: 4.5em;
+  font-weight: 700;
+  color: white;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 0.15em solid #ffc107;
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+.cursor {
+  font-weight: 700;
+  font-size: 4.5em;
+  color: #ffc107;
+  opacity: 1;
+  animation: blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #ffc107; }
+}
+
+
+#home-desktop, #home-mobile {
+  background: linear-gradient(45deg, #ff5e5e, #ffc107);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
+}
+
+@keyframes gradientBG {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+
 #home-desktop {
   background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../images/Cover-4.jpg);
   background-position: center;

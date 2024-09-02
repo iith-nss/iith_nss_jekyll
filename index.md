@@ -2,37 +2,47 @@
 layout: default
 title: Home
 ---
+<style>
+.col-12
+  {
+    max-width: 85%;
+  }
+</style>
 
 <div id="home-desktop" class="home large" style="padding-top: -24px">
-      <div class="text-vcenter">
-        <h1 class="animated fadeIn mb-3" style="color: white;">NOT ME, BUT YOU</h1>
-        <a href="#about" style="text-decoration: none;">
-        <div class="arrow">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-        </a>
+  <div class="text-vcenter">
+    <h1 class="animated typing-effect-desktop mb-3">
+      <span id="typing-text-desktop"></span>
+    </h1>
+    <a href="#about" style="text-decoration: none;">
+      <div class="arrow">
+        <span></span>
+        <span></span>
+        <span></span>
       </div>
+    </a>
+  </div>
 </div>
 
 <div id="home-mobile" class="home small" style="padding-top: -24px">
-      <div class="text-vcenter">
-        <h1 class="animated fadeIn mb-3" style="color: white;">NOT ME, BUT YOU</h1>
-        <a href="#about" style="text-decoration: none;">
-        <div class="arrow">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-        </a>
+  <div class="text-vcenter">
+    <h1 class="animated typing-effect-mobile mb-3">
+      <span id="typing-text-mobile"></span>
+    </h1>
+    <a href="#about" style="text-decoration: none;">
+      <div class="arrow">
+        <span></span>
+        <span></span>
+        <span></span>
       </div>
+    </a>
+  </div>
 </div>
  
 <!-- /first section -->
 
 <!--ABOUT NSS-->
-<section class="container-fluid bg-dark" id="about" style="padding-top: 15px;">
+<section class="container-fluid bg-dark" id="about" style="padding-top: 100px;">
   <div class="row justify-content-center">
     <div class="col-xl-2 col-lg-1 col-md-1"></div>
       <div class="col-xl-8 col-lg-10 col-md-10 col-sm-12">
@@ -63,5 +73,36 @@ title: Home
           </div>
       </div>
       <div class="col-xl-2 col-lg-1 col-md-1"></div>
+  </div>
+
+  <div class="home" id="contact">
+    <div class="container" style="padding-top: 100px">
+      <h1 class="animated fadeIn display-4 mb-3 text-center text-light">CONTACT US</h1>
+    </div>
+  </div>
+
+  <div class="container contact">
+    <div class="row align-items-center d-flex justify-content-center">
+      <div class="col-12 col-lg-5 col-md-7 mb-4">
+        <div class="mb-4">
+          <h3 class="text-light">NATIONAL SERVICE SCHEME</h3>
+        </div>
+        <p class="text-light">Indian Institute of Technology, Hyderabad</p>
+        <p class="text-light">Near NH-65, Sangareddy, Kandi</p>
+        <p class="text-light">Telangana, India 502285</p>
+        <p class="text-light">Email ID :
+        <a href="mailto:office.nss@iith.ac.in"> office.nss@iith.ac.in</a>
+        </p>
+        <text class="text-light">Phone: </text>
+        <a href="tel:+91 81254 45396">+91 81254 45396</a>
+      </div>
+
+      <div class="col-11 col-lg-5 mb-4 d-flex justify-content-center">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3803.1691113313636!2d78.12085141482896!3d17.594702687954694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcbefdc136bffbb%3A0x73414ff6594c9191!2sIndian%20Institute%20of%20Technology%20(IIT%20Hyderabad)!5e0!3m2!1sen!2sin!4v1628961801388!5m2!1sen!2sin"
+          width="300" height="300" style="border: 0" allowfullscreen="" loading="lazy">
+        </iframe>
+      </div>
+    </div>
   </div>
 </section>

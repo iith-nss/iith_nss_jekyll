@@ -85,3 +85,41 @@ $(function() {
         
       });	
 });
+
+document.addEventListener("DOMContentLoaded", function() {
+  const textArray = ["NOT ME, BUT YOU", "NSS IIT HYDERABAD"];
+
+  function typeText(elementId) {
+    const typingText = document.getElementById(elementId);
+    
+    let arrayIndex = 0;
+    let charIndex = 0;
+
+    function type() {
+      if (charIndex < textArray[arrayIndex].length) {
+        typingText.textContent += textArray[arrayIndex].charAt(charIndex);
+        charIndex++;
+        setTimeout(type, 150);
+      } else {
+        setTimeout(erase, 2000);
+      }
+    }
+
+    function erase() {
+      if (charIndex > 0) {
+        typingText.textContent = textArray[arrayIndex].substring(0, charIndex - 1);
+        charIndex--;
+        setTimeout(erase, 100);
+      } else {
+        arrayIndex++;
+        if (arrayIndex >= textArray.length) arrayIndex = 0;
+        setTimeout(type, 1000);
+      }
+    }
+
+    setTimeout(type, 1000);
+  }
+
+  typeText("typing-text-desktop");
+  typeText("typing-text-mobile");
+});
