@@ -77,7 +77,7 @@ title: Home
 
   <div class="home" id="Contact_us_region">
     <div class="container" style="padding-top: 70px">
-      <h1 class="animated fadeIn display-4 mb-3 text-center text-light">CONTACT US</h1>
+      <h2 class="animated fadeIn display-4 mb-3 text-center text-light">CONTACT US</h2>
     </div>
   </div>
 
@@ -85,7 +85,7 @@ title: Home
     <div class="row align-items-center d-flex justify-content-center">
       <div class="col-12 col-lg-5 col-md-7 mb-4">
         <div class="mb-4">
-          <h3 class="text-light">NATIONAL SERVICE SCHEME</h3>
+          <h4 class="text-light">NATIONAL SERVICE SCHEME</h4>
         </div>
         <p class="text-light">Indian Institute of Technology, Hyderabad</p>
         <p class="text-light">Near NH-65, Sangareddy, Kandi</p>
