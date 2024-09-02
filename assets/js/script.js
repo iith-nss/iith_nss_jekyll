@@ -87,10 +87,9 @@ $(function() {
 });
 
 document.addEventListener("DOMContentLoaded", function() {
-  const textArray = ["NOT ME, BUT YOU","NSS IIT HYDERABAD"];
-
-  function typeText(elementId) {
-    const typingText = document.getElementById(elementId);
+  function typeText(elementID) {
+    const textArray = elementID == "typing-text-desktop" ? ["NOT ME, BUT YOU","NSS IIT HYDERABAD"] : ["NOT ME","BUT YOU","NSS","IIT HYDERABAD"];
+    const typingText = document.getElementById(elementID);
     
     let arrayIndex = 0;
     let charIndex = 0;
@@ -128,9 +127,9 @@ const cursor = document.createElement('div');
 cursor.classList.add('custom-cursor');
 document.body.appendChild(cursor);
 
-const trailCount = 50;
+const trailCount = 5;
 const trails = [];
-for (let i = 0; i < trailCount; i++) {
+for (let i=0; i < trailCount; i++) {
   const trail = document.createElement('div');
   trail.classList.add('cursor-trail');
   document.body.appendChild(trail);
