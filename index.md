@@ -42,7 +42,7 @@ title: Home
 <!-- /first section -->
 
 <!--ABOUT NSS-->
-<section class="container-fluid bg-gradient" id="about" style="padding-top: 80px;">
+<section class="container-fluid bg-body" id="about" style="padding-top: 80px;">
   <div class="row justify-content-center">
     <div class="col-xl-2 col-lg-1 col-md-1"></div>
       <div class="col-xl-8 col-lg-10 col-md-10 col-sm-12">
