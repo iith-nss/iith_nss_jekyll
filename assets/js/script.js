@@ -99,9 +99,9 @@ document.addEventListener("DOMContentLoaded", function() {
       if (charIndex < textArray[arrayIndex].length) {
         typingText.textContent += textArray[arrayIndex].charAt(charIndex);
         charIndex++;
-        setTimeout(type,140);
+        setTimeout(type,150);
       } else {
-        setTimeout(erase,3000);
+        setTimeout(erase,2000);
       }
     }
 
