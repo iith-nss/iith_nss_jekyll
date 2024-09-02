@@ -128,7 +128,7 @@ const cursor = document.createElement('div');
 cursor.classList.add('custom-cursor');
 document.body.appendChild(cursor);
 
-const trailCount = 10;
+const trailCount = 50;
 const trails = [];
 for (let i = 0; i < trailCount; i++) {
   const trail = document.createElement('div');

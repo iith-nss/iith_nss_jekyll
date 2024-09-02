@@ -96,11 +96,6 @@ html, body {
   animation: pulse 1.5s infinite;
 }
 
-.custom-cursor.hover {
-  width: 30px;
-  background-color: rgba(255, 255, 255, 0.8);
-}
-
 @keyframes pulse {
   0% {
     transform: translate(-50%, -50%) scale(1);
@@ -166,7 +161,7 @@ html {
 }
 
 .typing-effect-mobile {
-  font-size: 3vw;
+  font-size: 2vw;
 }
 
 @keyframes typing {
