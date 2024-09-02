@@ -88,7 +88,7 @@ $(function() {
 
 document.addEventListener("DOMContentLoaded", function() {
   function typeText(elementID) {
-    const textArray = elementID == "typing-text-desktop" ? ["NOT ME, BUT YOU","NSS IIT HYDERABAD"] : ["NOT ME","BUT YOU","NSS","IIT HYDERABAD"];
+    const textArray = elementID == "typing-text-desktop" ? ["NOT ME, BUT YOU","NSS IIT HYDERABAD"] : ["NOT ME","BUT YOU","NSS IITH"];
     const typingText = document.getElementById(elementID);
     
     let arrayIndex = 0;
@@ -149,7 +149,7 @@ document.addEventListener('mousemove', (e) => {
   });
 });
 
-document.querySelectorAll('a, button').forEach((element) => {
+document.querySelectorAll('a,button').forEach((element) => {
   element.addEventListener('mouseenter', () => {
     cursor.classList.add('hover');
   });
