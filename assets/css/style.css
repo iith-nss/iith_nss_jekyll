@@ -114,25 +114,19 @@ html {
   color: white;
   white-space: nowrap;
   overflow: hidden;
+  width: fit-content; /* Constrain the width to the text content */
+  display: inline-block; /* Make sure the element fits the content */
   border-right: 0.15em solid #ffc107;
   animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
 }
 
-.cursor {
-  font-weight: 700;
-  font-size: 4.5em;
-  color: #ffc107;
-  opacity: 1;
-  animation: blink-caret 0.75s step-end infinite;
-}
-
 @keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
+  from { width: 0; }
+  to { width: 100%; }
 }
 
 @keyframes blink-caret {
-  from, to { border-color: transparent }
+  from, to { border-color: transparent; }
   50% { border-color: #ffc107; }
 }
 
