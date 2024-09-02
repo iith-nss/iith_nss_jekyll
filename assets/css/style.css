@@ -33,10 +33,10 @@ nav a {
   }
 
 /*Falling down arrow*/
-.arrow span {
+.arrow span{
   border-color: #ffc107;
 }
-.arrow:hover span {
+.arrow:hover span{
   border-color: #ff5e5e;
 }
 
@@ -62,7 +62,7 @@ nav a {
 .arrow span:nth-child(3){
   animation-delay: -0.4s;
 }
-@keyframes animate {
+@keyframes animate{
   0%{
       opacity: 0;
       transform: rotate(45deg) translate(-20px,-20px);
@@ -108,15 +108,19 @@ html {
   padding: 0;
 }
 /* additional sections */
-.typing-effect-desktop, .typing-effect-mobile {
-  font-size: 4.5em;
+.typing-effect-desktop,.typing-effect-mobile {
+  font-size: 3.5em;
   font-weight: 700;
   color: white;
   white-space: nowrap;
   overflow: hidden;
   display: inline-block;
-  border-right: 0.15em solid #ffc107;
+  border-right: 0.1em solid #ffc107;
   animation: typing 4s steps(40, end) forwards, blink-caret 0.75s step-end infinite;
+}
+
+.typing-effect-desktop {
+  font-size: 4.5em;
 }
 
 @keyframes typing {

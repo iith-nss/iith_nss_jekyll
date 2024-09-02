@@ -99,9 +99,9 @@ document.addEventListener("DOMContentLoaded", function() {
       if (charIndex < textArray[arrayIndex].length) {
         typingText.textContent += textArray[arrayIndex].charAt(charIndex);
         charIndex++;
-        setTimeout(type, 150);
+        setTimeout(type, 188);
       } else {
-        setTimeout(erase, 2000);
+        setTimeout(erase, 2500);
       }
     }
 
@@ -109,15 +109,15 @@ document.addEventListener("DOMContentLoaded", function() {
       if (charIndex > 0) {
         typingText.textContent = textArray[arrayIndex].substring(0, charIndex - 1);
         charIndex--;
-        setTimeout(erase, 100);
+        setTimeout(erase, 125);
       } else {
         arrayIndex++;
         if (arrayIndex >= textArray.length) arrayIndex = 0;
-        setTimeout(type, 1000);
+        setTimeout(type, 1250);
       }
     }
 
-    setTimeout(type, 1000);
+    setTimeout(type, 1250);
   }
 
   typeText("typing-text-desktop");
