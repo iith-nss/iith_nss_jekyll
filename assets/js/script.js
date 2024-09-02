@@ -87,7 +87,7 @@ $(function() {
 });
 
 document.addEventListener("DOMContentLoaded", function() {
-  const textArray = ["NOT ME, BUT YOU", "NSS IIT HYDERABAD"];
+  const textArray = ["NOT ME, BUT YOU","NSS IIT HYDERABAD"];
 
   function typeText(elementId) {
     const typingText = document.getElementById(elementId);
@@ -99,9 +99,9 @@ document.addEventListener("DOMContentLoaded", function() {
       if (charIndex < textArray[arrayIndex].length) {
         typingText.textContent += textArray[arrayIndex].charAt(charIndex);
         charIndex++;
-        setTimeout(type, 188);
+        setTimeout(type,140);
       } else {
-        setTimeout(erase, 2500);
+        setTimeout(erase,3000);
       }
     }
 
@@ -109,15 +109,15 @@ document.addEventListener("DOMContentLoaded", function() {
       if (charIndex > 0) {
         typingText.textContent = textArray[arrayIndex].substring(0, charIndex - 1);
         charIndex--;
-        setTimeout(erase, 125);
+        setTimeout(erase,100);
       } else {
         arrayIndex++;
         if (arrayIndex >= textArray.length) arrayIndex = 0;
-        setTimeout(type, 1250);
+        setTimeout(type,1000);
       }
     }
 
-    setTimeout(type, 1250);
+    setTimeout(type,1000);
   }
 
   typeText("typing-text-desktop");

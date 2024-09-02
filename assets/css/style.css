@@ -33,9 +33,6 @@ nav a {
   }
 
 /*Falling down arrow*/
-.arrow span{
-  border-color: #ffc107;
-}
 .arrow:hover span{
   border-color: #ff5e5e;
 }
@@ -81,8 +78,23 @@ nav a {
 html, body {
     height: 100%;
     width: 100%;
-    background-color: #212121;
+    background: linear-gradient(-45deg, #000000, #363636, #575555, #363636,#000000);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
 }
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -109,12 +121,13 @@ html {
 }
 /* additional sections */
 .typing-effect-desktop,.typing-effect-mobile {
-  font-size: 3.5em;
+  font-size: 2.5em;
   font-weight: 700;
   color: white;
   white-space: nowrap;
   overflow: hidden;
   display: inline-block;
+  padding-right: 0.1em;
   border-right: 0.1em solid #ffc107;
   animation: typing 4s steps(40, end) forwards, blink-caret 0.75s step-end infinite;
 }
@@ -138,19 +151,6 @@ html {
   from, to { border-color: transparent; }
   50% { border-color: #ffc107; }
 }
-
-#home-desktop, #home-mobile {
-  background: linear-gradient(45deg, #ff5e5e, #ffc107);
-  background-size: 400% 400%;
-  animation: gradientBG 15s ease infinite;
-}
-
-@keyframes gradientBG {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
-}
-
 
 #home-desktop {
   background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../images/Cover-4.jpg);
