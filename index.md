@@ -7,6 +7,9 @@ title: Home
   {
     max-width: 85%;
   }
+  
+/* Events - Cards section in the main page */
+  
 .Event-cards1 {
   overflow-x: auto;
 }
@@ -16,7 +19,7 @@ title: Home
 }
 .image-wrapper1 {
     position: relative;
-    margin-right: 5px;
+    margin-right: 20px;
 }
 .image-wrapper1 img {
     width: 400px;
@@ -44,6 +47,8 @@ title: Home
 .image-wrapper1:hover .overlay-text1 {
     display: none; /* Hide the text on hover (optional) */
 }
+/*EVENT STYLING ENDS*/
+
 </style>
 
 <div id="home-desktop" class="home large" style="padding-top: -24px">
@@ -113,7 +118,7 @@ title: Home
   </div>
 
   <!--Events Section-->
-  <div>
+  <div id="events_section">
     
     <div class="text-center"> 
       <h2 style="color: white; text-align: center;">EVENTS</h2>
