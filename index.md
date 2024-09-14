@@ -22,8 +22,8 @@ title: Home
     margin-right: 12.5px;
 }
 .image-wrapper1 img {
-    width: 810px;
-    height: 405px;
+    width: 700px;
+    height: 350px;
     border-radius: 20px;
     border: 2px solid rgb(138, 138, 128);
     filter: blur(3.5px); /* Apply blur to the images */
@@ -120,51 +120,51 @@ title: Home
   <!--Events Section-->
   <div id="events_section">
     
-    <div class="text-center" style="padding-top: 80px"> 
-      <h2 style="color: white; text-align: center;"><a href="/events/event-descriptions.html">EVENTS</a></h2>
+    <div class="text-center" style="padding-top: 60px"> 
+      <h2 style="color: white; text-align: center; padding-top: 40px;"><a href="/events/event-descriptions.html" style="color: white;" >EVENTS</a></h2>
       <hr class="accent-2 mb-4 mt-0 mx-auto" style="width: 80px; background-color: #ff5e5e; height: 3px;">
     </div>
     
     <div class = "Event-cards1">
         <div class="imgbox1">
             <div class="image-wrapper1">
-                <img src="/assets/images/Plantation Drive-4.JPG" width="810" height="405" alt="Img1">
+                <img src="/assets/images/Plantation Drive-4.JPG" width="700" height="350" alt="Img1">
                 <div class="overlay-text1">Image 1</div>
             </div>
             <div class="image-wrapper1">
-                <img src="/assets/images/Plantation Drive-4.JPG" width="810" height="405" alt="Img1">
+                <img src="/assets/images/Plantation Drive-4.JPG" width="700" height="350" alt="Img1">
                 <div class="overlay-text1">Image 1</div>
             </div>
             <div class="image-wrapper1">
-                <img src="/assets/images/Plantation Drive-4.JPG" width="810" height="405" alt="Img1">
+                <img src="/assets/images/Plantation Drive-4.JPG" width="700" height="350" alt="Img1">
                 <div class="overlay-text1">Image 1</div>
             </div>
             <div class="image-wrapper1">
-                <img src="/assets/images/Plantation Drive-4.JPG" width="810" height="405" alt="Img1">
+                <img src="/assets/images/Plantation Drive-4.JPG" width="700" height="350" alt="Img1">
                 <div class="overlay-text1">Image 1</div>
             </div>
             <div class="image-wrapper1">
-                <img src="/assets/images/Plantation Drive-4.JPG" width="810" height="405" alt="Img1">
+                <img src="/assets/images/Plantation Drive-4.JPG" width="700" height="350" alt="Img1">
                 <div class="overlay-text1">Image 1</div>
             </div>
             <div class="image-wrapper1">
-                <img src="/assets/images/Plantation Drive-4.JPG" width="810" height="405" alt="Img1">
+                <img src="/assets/images/Plantation Drive-4.JPG" width="700" height="350" alt="Img1">
                 <div class="overlay-text1">Image 1</div>
             </div>
             <div class="image-wrapper1">
-                <img src="/assets/images/Plantation Drive-4.JPG" width="810" height="405" alt="Img1">
+                <img src="/assets/images/Plantation Drive-4.JPG" width="700" height="350" alt="Img1">
                 <div class="overlay-text1">Image 1</div>
             </div>
             <div class="image-wrapper1">
-                <img src="/assets/images/Plantation Drive-4.JPG" width="810" height="405" alt="Img1">
+                <img src="/assets/images/Plantation Drive-4.JPG" width="700" height="350" alt="Img1">
                 <div class="overlay-text1">Image 1</div>
             </div>
             <div class="image-wrapper1">
-                <img src="/assets/images/Plantation Drive-4.JPG" width="810" height="405" alt="Img1">
+                <img src="/assets/images/Plantation Drive-4.JPG" width="700" height="350" alt="Img1">
                 <div class="overlay-text1">Image 1</div>
             </div>
             <div class="image-wrapper1">
-                <img src="/assets/images/Plantation Drive-4.JPG" width="810" height="405" alt="Img1">
+                <img src="/assets/images/Plantation Drive-4.JPG" width="700" height="350" alt="Img1">
                 <div class="overlay-text1">Image 1</div>
             </div>
         </div>
