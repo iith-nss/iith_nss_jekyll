@@ -78,7 +78,10 @@ title: Home
   <!--Events Section-->
   <div class = "Events-section">
     
-    <div> <h2 style="color: white; text-align: center;">EVENTS</h2> </div>
+    <div class="text-center"> 
+      <h2 style="color: white; text-align: center;">EVENTS</h2>
+      <hr class="accent-2 mb-4 mt-0 mx-auto" style="width: 80px; background-color: #ff5e5e; height: 3px;">
+    </div>
     
     <div class = "Event-cards">
         <div class="imgbox">
