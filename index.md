@@ -7,6 +7,43 @@ title: Home
   {
     max-width: 85%;
   }
+.Event-cards1 {
+  overflow-x: auto;
+}
+.imgbox1 {
+    display: flex;
+    flex-wrap: nowrap;
+}
+.image-wrapper1 {
+    position: relative;
+    margin-right: 5px;
+}
+.image-wrapper1 img {
+    width: 400px;
+    height: 200px;
+    border-radius: 20px;
+    border: 2px solid rgb(138, 138, 128);
+    filter: blur(5px); /* Apply blur to the images */
+    transition: filter 0.3s ease;
+}
+.image-wrapper1:hover img {
+    filter: none; /* Remove blur when hovering */
+}
+.overlay-text1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    pointer-events: none; /* Ensure text does not interfere with hover */
+}
+
+.image-wrapper1:hover .overlay-text1 {
+    display: none; /* Hide the text on hover (optional) */
+}
 </style>
 
 <div id="home-desktop" class="home large" style="padding-top: -24px">
