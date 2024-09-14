@@ -86,43 +86,43 @@ title: Home
     <div class = "Event-cards">
         <div class="imgbox">
             <div class="image-wrapper">
-                <img src="/assets/images/Plantation Drive-4.JPG" width="810" height="405" alt="Img1">
+                <img src="/assets/images/Plantation Drive-4.JPG" width="400" height="200" alt="Img1">
                 <div class="overlay-text">Image 1</div>
             </div>
             <div class="image-wrapper">
-                <img src="/assets/images/Plantation Drive-4.JPG" width="810" height="405" alt="Img1">
+                <img src="/assets/images/Plantation Drive-4.JPG" width="400" height="200" alt="Img1">
                 <div class="overlay-text">Image 1</div>
             </div>
             <div class="image-wrapper">
-                <img src="/assets/images/Plantation Drive-4.JPG" width="810" height="405" alt="Img1">
+                <img src="/assets/images/Plantation Drive-4.JPG" width="400" height="200" alt="Img1">
                 <div class="overlay-text">Image 1</div>
             </div>
             <div class="image-wrapper">
-                <img src="/assets/images/Plantation Drive-4.JPG" width="810" height="405" alt="Img1">
+                <img src="/assets/images/Plantation Drive-4.JPG" width="400" height="200" alt="Img1">
                 <div class="overlay-text">Image 1</div>
             </div>
             <div class="image-wrapper">
-                <img src="/assets/images/Plantation Drive-4.JPG" width="810" height="405" alt="Img1">
+                <img src="/assets/images/Plantation Drive-4.JPG" width="400" height="200" alt="Img1">
                 <div class="overlay-text">Image 1</div>
             </div>
             <div class="image-wrapper">
-                <img src="/assets/images/Plantation Drive-4.JPG" width="810" height="405" alt="Img1">
+                <img src="/assets/images/Plantation Drive-4.JPG" width="400" height="200" alt="Img1">
                 <div class="overlay-text">Image 1</div>
             </div>
             <div class="image-wrapper">
-                <img src="/assets/images/Plantation Drive-4.JPG" width="810" height="405" alt="Img1">
+                <img src="/assets/images/Plantation Drive-4.JPG" width="400" height="200" alt="Img1">
                 <div class="overlay-text">Image 1</div>
             </div>
             <div class="image-wrapper">
-                <img src="/assets/images/Plantation Drive-4.JPG" width="810" height="405" alt="Img1">
+                <img src="/assets/images/Plantation Drive-4.JPG" width="400" height="200" alt="Img1">
                 <div class="overlay-text">Image 1</div>
             </div>
             <div class="image-wrapper">
-                <img src="/assets/images/Plantation Drive-4.JPG" width="810" height="405" alt="Img1">
+                <img src="/assets/images/Plantation Drive-4.JPG" width="400" height="200" alt="Img1">
                 <div class="overlay-text">Image 1</div>
             </div>
             <div class="image-wrapper">
-                <img src="/assets/images/Plantation Drive-4.JPG" width="810" height="405" alt="Img1">
+                <img src="/assets/images/Plantation Drive-4.JPG" width="400" height="200" alt="Img1">
                 <div class="overlay-text">Image 1</div>
             </div>
         </div>
