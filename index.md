@@ -120,7 +120,7 @@ title: Home
   <!--Events Section-->
   <div id="events_section">
     
-    <div class="text-center" style="padding-top: 60px"> 
+    <div class="text-center" > 
       <h2 style="color: white; text-align: center; padding-top: 40px;"><a href="/events/event-descriptions.html" style="color: white;" >EVENTS</a></h2>
       <hr class="accent-2 mb-4 mt-0 mx-auto" style="width: 80px; background-color: #ff5e5e; height: 3px;">
     </div>
