@@ -121,8 +121,7 @@ title: Home
   <div id="events_section">
     
     <div class="text-center" style="padding-top: 80px"> 
-      <h2 style="color: white; text-align: center;"><a href="{{site.baseurl}}/index.html/events.html">EVENTS
-EVENTS</h2>
+      <h2 style="color: white; text-align: center;"><a href="/events/event-descriptions.html">EVENTS</a></h2>
       <hr class="accent-2 mb-4 mt-0 mx-auto" style="width: 80px; background-color: #ff5e5e; height: 3px;">
     </div>
     
