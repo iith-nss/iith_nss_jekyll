@@ -133,7 +133,8 @@ title: Home
   
   <div class="home" id="contact">
     <div class="container" style="padding-top: 70px">
-      <h2 class="animated fadeIn display-4 mb-3 text-center text-light">CONTACT US</h2>
+      <h2 style="color: white; text-align: center;">CONTACT US</h2>
+      <hr class="accent-2 mb-4 mt-0 mx-auto" style="width: 80px; background-color: #ff5e5e; height: 3px;">
     </div>
   </div>
   
