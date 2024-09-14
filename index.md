@@ -19,14 +19,14 @@ title: Home
 }
 .image-wrapper1 {
     position: relative;
-    margin-right: 20px;
+    margin-right: 12.5px;
 }
 .image-wrapper1 img {
     width: 810px;
     height: 405px;
     border-radius: 20px;
     border: 2px solid rgb(138, 138, 128);
-    filter: blur(1px); /* Apply blur to the images */
+    filter: blur(3.5px); /* Apply blur to the images */
     transition: filter 0.3s ease;
 }
 .image-wrapper1:hover img {
@@ -120,8 +120,9 @@ title: Home
   <!--Events Section-->
   <div id="events_section">
     
-    <div class="text-center" style="padding-top: 70px"> 
-      <h2 style="color: white; text-align: center;">EVENTS</h2>
+    <div class="text-center" style="padding-top: 80px"> 
+      <h2 style="color: white; text-align: center;"><a class="nav-link" href="{{site.baseurl}}/index.html/events.html">EVENTS
+EVENTS</h2>
       <hr class="accent-2 mb-4 mt-0 mx-auto" style="width: 80px; background-color: #ff5e5e; height: 3px;">
     </div>
     
