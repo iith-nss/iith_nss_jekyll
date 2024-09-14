@@ -22,11 +22,11 @@ title: Home
     margin-right: 20px;
 }
 .image-wrapper1 img {
-    width: 400px;
-    height: 200px;
+    width: 810px;
+    height: 405px;
     border-radius: 20px;
     border: 2px solid rgb(138, 138, 128);
-    filter: blur(5px); /* Apply blur to the images */
+    filter: blur(1px); /* Apply blur to the images */
     transition: filter 0.3s ease;
 }
 .image-wrapper1:hover img {
@@ -120,7 +120,7 @@ title: Home
   <!--Events Section-->
   <div id="events_section">
     
-    <div class="text-center"> 
+    <div class="text-center" style="padding-top: 70px"> 
       <h2 style="color: white; text-align: center;">EVENTS</h2>
       <hr class="accent-2 mb-4 mt-0 mx-auto" style="width: 80px; background-color: #ff5e5e; height: 3px;">
     </div>
@@ -128,43 +128,43 @@ title: Home
     <div class = "Event-cards1">
         <div class="imgbox1">
             <div class="image-wrapper1">
-                <img src="/assets/images/Plantation Drive-4.JPG" width="400" height="200" alt="Img1">
+                <img src="/assets/images/Plantation Drive-4.JPG" width="810" height="405" alt="Img1">
                 <div class="overlay-text1">Image 1</div>
             </div>
             <div class="image-wrapper1">
-                <img src="/assets/images/Plantation Drive-4.JPG" width="400" height="200" alt="Img1">
+                <img src="/assets/images/Plantation Drive-4.JPG" width="810" height="405" alt="Img1">
                 <div class="overlay-text1">Image 1</div>
             </div>
             <div class="image-wrapper1">
-                <img src="/assets/images/Plantation Drive-4.JPG" width="400" height="200" alt="Img1">
+                <img src="/assets/images/Plantation Drive-4.JPG" width="810" height="405" alt="Img1">
                 <div class="overlay-text1">Image 1</div>
             </div>
             <div class="image-wrapper1">
-                <img src="/assets/images/Plantation Drive-4.JPG" width="400" height="200" alt="Img1">
+                <img src="/assets/images/Plantation Drive-4.JPG" width="810" height="405" alt="Img1">
                 <div class="overlay-text1">Image 1</div>
             </div>
             <div class="image-wrapper1">
-                <img src="/assets/images/Plantation Drive-4.JPG" width="400" height="200" alt="Img1">
+                <img src="/assets/images/Plantation Drive-4.JPG" width="810" height="405" alt="Img1">
                 <div class="overlay-text1">Image 1</div>
             </div>
             <div class="image-wrapper1">
-                <img src="/assets/images/Plantation Drive-4.JPG" width="400" height="200" alt="Img1">
+                <img src="/assets/images/Plantation Drive-4.JPG" width="810" height="405" alt="Img1">
                 <div class="overlay-text1">Image 1</div>
             </div>
             <div class="image-wrapper1">
-                <img src="/assets/images/Plantation Drive-4.JPG" width="400" height="200" alt="Img1">
+                <img src="/assets/images/Plantation Drive-4.JPG" width="810" height="405" alt="Img1">
                 <div class="overlay-text1">Image 1</div>
             </div>
             <div class="image-wrapper1">
-                <img src="/assets/images/Plantation Drive-4.JPG" width="400" height="200" alt="Img1">
+                <img src="/assets/images/Plantation Drive-4.JPG" width="810" height="405" alt="Img1">
                 <div class="overlay-text1">Image 1</div>
             </div>
             <div class="image-wrapper1">
-                <img src="/assets/images/Plantation Drive-4.JPG" width="400" height="200" alt="Img1">
+                <img src="/assets/images/Plantation Drive-4.JPG" width="810" height="405" alt="Img1">
                 <div class="overlay-text1">Image 1</div>
             </div>
             <div class="image-wrapper1">
-                <img src="/assets/images/Plantation Drive-4.JPG" width="400" height="200" alt="Img1">
+                <img src="/assets/images/Plantation Drive-4.JPG" width="810" height="405" alt="Img1">
                 <div class="overlay-text1">Image 1</div>
             </div>
         </div>
