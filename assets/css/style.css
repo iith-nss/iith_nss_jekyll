@@ -244,18 +244,18 @@ h2 {
 }
 
 /* Events - Cards section in the main page */
-.Event-cards {
+.Event-cards1 {
   overflow-x: auto;
 }
-.imgbox {
+.imgbox1 {
     display: flex;
     flex-wrap: nowrap;
 }
-.image-wrapper {
+.image-wrapper1 {
     position: relative;
     margin-right: 5px;
 }
-.image-wrapper img {
+.image-wrapper1 img {
     width: 400px;
     height: 200px;
     border-radius: 20px;
@@ -263,10 +263,10 @@ h2 {
     filter: blur(5px); /* Apply blur to the images */
     transition: filter 0.3s ease;
 }
-.image-wrapper:hover img {
+.image-wrapper1:hover img {
     filter: none; /* Remove blur when hovering */
 }
-.overlay-text {
+.overlay-text1 {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -278,7 +278,7 @@ h2 {
     pointer-events: none; /* Ensure text does not interfere with hover */
 }
 
-.image-wrapper:hover .overlay-text {
+.image-wrapper1:hover .overlay-text1 {
     display: none; /* Hide the text on hover (optional) */
 }
 /*EVENT STYLING ENDS*/
@@ -478,7 +478,6 @@ h2 {
 }
 
 /* FAQ STYLE END */
-
 
 /* Transition effect */
 .card:hover {
