@@ -26,7 +26,7 @@ title: Home
     height: 360px;
     border-radius: 20px;
     border: 2px solid rgb(138, 138, 128);
-    filter: blur(3.5px); /* Apply blur to the images */
+    filter: blur(5px); /* Apply blur to the images */
     transition: filter 0.3s ease;
 }
 .image-wrapper1:hover img {
