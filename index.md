@@ -19,10 +19,10 @@ title: Home
 }
 .image-wrapper1 {
     position: relative;
-    margin-right: 12.5px;
+    margin-right: 14px;
 }
 .image-wrapper1 img {
-    width: 680px;
+    width: 670px;
     height: 360px;
     border-radius: 20px;
     border: 2px solid rgb(138, 138, 128);
