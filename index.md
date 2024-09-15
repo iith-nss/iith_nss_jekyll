@@ -144,7 +144,7 @@ title: Home
                 <div class="overlay-text1">Udaan</div>
             </div>
             <div class="image-wrapper1">
-                <a href="/events/event-descriptions/blood-donation.html" ><img src="/assets/images/Blood Donation-2.jpg" width="680" height="360" alt="Img1"></a>
+                <a href="/events/event-descriptions/blood-donation.html" ><img src="/assets/images/Blood donation-2.jpg" width="680" height="360" alt="Img1"></a>
                 <div class="overlay-text1">Blood Donation</div>
             </div>
             <div class="image-wrapper1">
