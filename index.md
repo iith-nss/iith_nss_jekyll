@@ -121,22 +121,22 @@ title: Home
   <div id="events_section">
     
     <div class="text-center" > 
-      <h2 style="color: white; text-align: center; padding-top: 40px;"><a href="/events/event-descriptions.html" style="color: white;" >EVENTS</a></h2>
+      <h2 style="color: white; text-align: center; padding-top: 40px;">EVENTS</h2>
       <hr class="accent-2 mb-4 mt-0 mx-auto" style="width: 80px; background-color: #ff5e5e; height: 3px;">
     </div>
     
     <div class = "Event-cards1">
         <div class="imgbox1">
             <div class="image-wrapper1">
-                <a href="/events/event-descriptions/swachh-bharat.html" ><img src="/assets/images/Swatch Bharat-2.jpg" width="670" height="360" alt="Img1"></a>
+                <a href="/events/swachh-bharat.html" ><img src="/assets/images/Swatch Bharat-2.jpg" width="670" height="360" alt="Img1"></a>
                 <div class="overlay-text1">Swachh Bharat</div>
             </div>
             <div class="image-wrapper1">
-                <a href="/events/event-descriptions/plantation-drive.html" ><img src="/assets/images/Plantation Drive-4.JPG" width="670" height="360" alt="Img1"></a>
+                <a href="/events/plantation-drive.html" ><img src="/assets/images/Plantation Drive-4.JPG" width="670" height="360" alt="Img1"></a>
                 <div class="overlay-text1">Plantation Drive</div>
             </div>
             <div class="image-wrapper1">
-                <a href="/events/event-descriptions/vidyadaan.html" ><img src="/assets/images/Vidyadaan-2.JPG" width="670" height="360" alt="Img1"></a>
+                <a href="/events/vidyadaan.html" ><img src="/assets/images/Vidyadaan-2.JPG" width="670" height="360" alt="Img1"></a>
                 <div class="overlay-text1">Vidyadaan</div>
             </div>
             <div class="image-wrapper1">
@@ -144,7 +144,7 @@ title: Home
                 <div class="overlay-text1">Udaan</div>
             </div>
             <div class="image-wrapper1">
-                <a href="/events/event-descriptions/blood-donation.html" ><img src="/assets/images/Blood donation-2.jpg" width="670" height="360" alt="Img1"></a>
+                <a href="/events/blood-donation.html" ><img src="/assets/images/Blood donation-2.jpg" width="670" height="360" alt="Img1"></a>
                 <div class="overlay-text1">Blood Donation</div>
             </div>
             <div class="image-wrapper1">
@@ -152,11 +152,11 @@ title: Home
                 <div class="overlay-text1">Orphanage and Old Age home Visit</div>
             </div>
             <div class="image-wrapper1">
-                <a href="/events/event-descriptions/walkathon.html" ><img src="/assets/images/Walkathon-1.jpg" width="670" height="360" alt="Img1"></a>
+                <a href="/events/walkathon.html" ><img src="/assets/images/Walkathon-1.jpg" width="670" height="360" alt="Img1"></a>
                 <div class="overlay-text1">Walkathon</div>
             </div>
             <div class="image-wrapper1">
-                <a href="/events/event-descriptions/book-donation.html" ><img src="/assets/images/events/Book Donation/IMG_0056.JPG" width="670" height="360" alt="Img1"></a>
+                <a href="/events/book-donation.html" ><img src="/assets/images/events/Book Donation/IMG_0056.JPG" width="670" height="360" alt="Img1"></a>
                 <div class="overlay-text1">Book Donation</div>
             </div>
             <div class="image-wrapper1">
