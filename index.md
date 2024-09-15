@@ -128,8 +128,9 @@ title: Home
     <div class = "Event-cards1">
         <div class="imgbox1">
             <div class="image-wrapper1">
-                <img src="/assets/images/Plantation Drive-4.JPG" width="680" height="360" alt="Img1">
-                <div class="overlay-text1">Image 1</div>
+                <a href="/events/event-descriptions/swachh-bharat.html" ><img src="/assets/images/Events (buffer) 2K19-20
+/DSC_0896-min.JPG" width="680" height="360" alt="Img1"></a>
+                <div class="overlay-text1">Swachh Bharat</div>
             </div>
             <div class="image-wrapper1">
                 <img src="/assets/images/Plantation Drive-4.JPG" width="680" height="360" alt="Img1">
