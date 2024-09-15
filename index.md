@@ -16,6 +16,7 @@ title: Home
 .imgbox1 {
     display: flex;
     flex-wrap: nowrap;
+    margin-right: 40px;
 }
 .image-wrapper1 {
     position: relative;
