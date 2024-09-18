@@ -71,10 +71,16 @@ title: Home
   }
 
   .image-wrapper1 img {
-    width: 100%; /* Make image responsive */
-    height: auto; /* Maintain aspect ratio */
-    max-width: 100%; /* Prevent exceeding the container width */
-    border-radius: 10px; /* Smaller border radius for mobile */
+    width: 90%; /* Make images 90% of the screen width */
+    height: 200px; /* Smaller height for mobile */
+    border-radius: 10px;
+    object-fit: cover; /* Maintain aspect ratio while filling the container */
+    filter: blur(5px); /* Keep the blur initially */
+    transition: filter 0.5s ease;
+  }
+  
+  .image-wrapper1 img.visible {
+    filter: none; /* Remove blur when the image enters the viewport */
   }
 
   .overlay-text1 {
@@ -84,12 +90,6 @@ title: Home
 
   .image-wrapper1:hover .overlay-text1 {
     display: none; /* Hide the text on hover (optional) */
-  }
-
-  /* Remove blur when image is touched or clicked */
-  .image-wrapper1:active img,
-  .image-wrapper1:focus img {
-    filter: none; /* Remove blur on touch */
   }
   
   /* Hiding the scrollbar for a cleaner look */
