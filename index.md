@@ -66,7 +66,7 @@ title: Home
 
   .image-wrapper1 {
     scroll-snap-align: start; /* Ensure snapping to each image */
-    margin-right: 10px; /* Space between images */
+    margin-right: 7px; /* Space between images */
     min-width: 90%; /* Make each image take 90% of the screen width */
   }
 
