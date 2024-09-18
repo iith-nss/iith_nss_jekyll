@@ -50,27 +50,43 @@ title: Home
 }
 
 @media screen and (max-width: 768px) {
+ .Event-cards1 {
+    display: flex;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    scroll-snap-type: x mandatory; /* Snap to each image on scroll */
+  }
+
   .imgbox1 {
-    flex-wrap: wrap; /* Allow the images to stack vertically */
-    justify-content: center; /* Center the images */
-    margin-right: 0; /* Remove large margin for smaller screens */
+    flex-wrap: nowrap; /* Keep images in one row */
+    justify-content: flex-start; /* Align items to the start */
+    margin-right: 0; /* Remove extra margin */
   }
 
   .image-wrapper1 {
-    margin-right: 10px; /* Reduce margin between images */
+    scroll-snap-align: start; /* Ensure snapping to each image */
+    margin-right: 10px; /* Space between images */
+    min-width: 90%; /* Make each image take 90% of the screen width */
   }
 
   .image-wrapper1 img {
-    width: 100%; /* Make the image width responsive to the screen size */
+    width: 100%; /* Make image responsive */
     height: auto; /* Maintain aspect ratio */
-    max-width: 100%; /* Ensure it doesn't exceed screen width */
+    max-width: 100%; /* Prevent exceeding the container width */
     border-radius: 10px; /* Smaller border radius for mobile */
-    border: 1px solid rgb(138, 138, 128);
   }
 
   .overlay-text1 {
-    font-size: 18px; /* Reduce text size for smaller screens */
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Smaller shadow for mobile */
+    font-size: 18px; /* Reduce text size for mobile */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Reduce text shadow */
+  }
+
+  /* Hiding the scrollbar for a cleaner look */
+  .Event-cards1::-webkit-scrollbar {
+    display: none; /* For WebKit browsers */
+  }
+  .Event-cards1 {
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
   }
 }
 /*EVENT STYLING ENDS*/
