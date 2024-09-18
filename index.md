@@ -39,7 +39,7 @@ title: Home
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 24px;
+    font-size: 30px;
     font-weight: bold;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
     pointer-events: none; /* Ensure text does not interfere with hover */
