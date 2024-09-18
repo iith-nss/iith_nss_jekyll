@@ -86,42 +86,42 @@ $(function() {
       });	
 });
 
-document.addEventListener("DOMContentLoaded", function() {
-  function typeText(elementID) {
-    const textArray = elementID == "typing-text-desktop" ? ["NOT ME, BUT YOU","NSS IIT HYDERABAD"] : ["NOT ME","BUT YOU","NSS IITH"];
-    const typingText = document.getElementById(elementID);
+// document.addEventListener("DOMContentLoaded", function() {
+//   function typeText(elementID) {
+//     const textArray = elementID == "typing-text-desktop" ? ["NOT ME, BUT YOU","NSS IIT HYDERABAD"] : ["NOT ME","BUT YOU","NSS IITH"];
+//     const typingText = document.getElementById(elementID);
     
-    let arrayIndex = 0;
-    let charIndex = 0;
+//     let arrayIndex = 0;
+//     let charIndex = 0;
 
-    function type() {
-      if (charIndex < textArray[arrayIndex].length) {
-        typingText.textContent += textArray[arrayIndex].charAt(charIndex);
-        charIndex++;
-        setTimeout(type,100);
-      } else {
-        setTimeout(erase,2000);
-      }
-    }
+//     function type() {
+//       if (charIndex < textArray[arrayIndex].length) {
+//         typingText.textContent += textArray[arrayIndex].charAt(charIndex);
+//         charIndex++;
+//         setTimeout(type,100);
+//       } else {
+//         setTimeout(erase,2000);
+//       }
+//     }
 
-    function erase() {
-      if (charIndex > 0) {
-        typingText.textContent = textArray[arrayIndex].substring(0, charIndex - 1);
-        charIndex--;
-        setTimeout(erase,100);
-      } else {
-        arrayIndex++;
-        if (arrayIndex >= textArray.length) arrayIndex = 0;
-        setTimeout(type,1000);
-      }
-    }
+//     function erase() {
+//       if (charIndex > 0) {
+//         typingText.textContent = textArray[arrayIndex].substring(0, charIndex - 1);
+//         charIndex--;
+//         setTimeout(erase,100);
+//       } else {
+//         arrayIndex++;
+//         if (arrayIndex >= textArray.length) arrayIndex = 0;
+//         setTimeout(type,1000);
+//       }
+//     }
 
-    setTimeout(type,1000);
-  }
+//     setTimeout(type,1000);
+//   }
 
-  typeText("typing-text-desktop");
-  typeText("typing-text-mobile");
-});
+//   typeText("typing-text-desktop");
+//   typeText("typing-text-mobile");
+// });
 
 const cursor = document.createElement('div');
 cursor.classList.add('custom-cursor');

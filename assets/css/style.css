@@ -158,7 +158,7 @@ html {
   padding: 0;
 }
 
-/* additional sections */
+additional sections
 .typing-effect-desktop,.typing-effect-mobile {
   color: white;
   white-space: nowrap;
@@ -173,7 +173,7 @@ html {
   font-size: 2vw;
 }
 
-@keyframes typing {
+/* @keyframes typing {
   from { 
     width: 0; 
     max-width: fit-content;
@@ -187,10 +187,10 @@ html {
 @keyframes blink-caret {
   from, to { border-color: transparent; }
   50% { border-color: #ffffff; }
-}
+} */
 
 #home-desktop {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../images/Cover-4.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../images/Updated_Cover.png);
   background-position: center;
   background-size: cover;
   display: table;
@@ -199,7 +199,7 @@ html {
   width: 100%;
 }
 #home-mobile {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../images/Cover-4.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../images/Updated_Cover\(mobile\).png);
   background-position: center;
   background-size: cover; 
   display: table;
