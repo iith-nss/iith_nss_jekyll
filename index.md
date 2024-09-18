@@ -48,6 +48,31 @@ title: Home
 .image-wrapper1:hover .overlay-text1 {
     display: none; /* Hide the text on hover (optional) */
 }
+
+@media screen and (max-width: 768px) {
+  .imgbox1 {
+    flex-wrap: wrap; /* Allow the images to stack vertically */
+    justify-content: center; /* Center the images */
+    margin-right: 0; /* Remove large margin for smaller screens */
+  }
+
+  .image-wrapper1 {
+    margin-right: 10px; /* Reduce margin between images */
+  }
+
+  .image-wrapper1 img {
+    width: 100%; /* Make the image width responsive to the screen size */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 100%; /* Ensure it doesn't exceed screen width */
+    border-radius: 10px; /* Smaller border radius for mobile */
+    border: 1px solid rgb(138, 138, 128);
+  }
+
+  .overlay-text1 {
+    font-size: 18px; /* Reduce text size for smaller screens */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Smaller shadow for mobile */
+  }
+}
 /*EVENT STYLING ENDS*/
 
 </style>
