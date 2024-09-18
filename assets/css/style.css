@@ -197,8 +197,9 @@ html {
   height: 100%;
   position: relative;
   width: 100%;
-  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1); /* Initial soft glow */
-  transition: box-shadow 0.5s ease;
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.3), 0 0 60px rgba(255, 255, 255, 0.2), 0 0 100px rgba(255, 255, 255, 0.1);
+  transition: box-shadow 0.7s ease;
+  animation: pulse-glow 3s infinite;
 }
 #home-mobile {
   background-image: url(../images/Updated_Cover\(mobile\).png);
@@ -208,13 +209,40 @@ html {
   height: 100%;
   position: relative;
   width: 100%;
-  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1); /* Initial soft glow */
-  transition: box-shadow 0.5s ease;
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.3), 0 0 60px rgba(255, 255, 255, 0.2), 0 0 100px rgba(255, 255, 255, 0.1);
+  transition: box-shadow 0.7s ease;
+  animation: pulse-glow 3s infinite;
 }
 
 #home-desktop:hover, #home-mobile:hover {
-  box-shadow: 0 0 40px rgba(255, 255, 255, 0.3), 0 0 80px rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 60px rgba(255, 255, 255, 0.6), 0 0 100px rgba(255, 255, 255, 0.4), 0 0 150px rgba(255, 255, 255, 0.3);
 }
+
+.glow-effect::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.3), transparent);
+  z-index: 1;
+  pointer-events: none;
+  transition: opacity 0.7s ease;
+}
+
+@keyframes pulse-glow {
+  0% {
+    box-shadow: 0 0 50px rgba(255, 255, 255, 0.4), 0 0 90px rgba(255, 255, 255, 0.3), 0 0 120px rgba(255, 255, 255, 0.2);
+  }
+  50% {
+    box-shadow: 0 0 60px rgba(255, 255, 255, 0.6), 0 0 100px rgba(255, 255, 255, 0.5), 0 0 150px rgba(255, 255, 255, 0.4);
+  }
+  100% {
+    box-shadow: 0 0 50px rgba(255, 255, 255, 0.4), 0 0 90px rgba(255, 255, 255, 0.3), 0 0 120px rgba(255, 255, 255, 0.2);
+  }
+}
+
 @media (min-width: 768px) {
   .small {
     display: none !important;
