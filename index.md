@@ -268,3 +268,25 @@ title: Home
     </div>
   </div>
 </section>
+
+ <!-- JavaScript code -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible'); // Add the 'visible' class to unblur
+          } else {
+            entry.target.classList.remove('visible'); // Remove the 'visible' class to reapply blur
+          }
+        });
+      }, {
+        threshold: 0.5 // Trigger when 50% of the image is visible
+      });
+
+      const images = document.querySelectorAll('.image-wrapper1 img');
+      images.forEach(image => {
+        observer.observe(image); // Observe each image
+      });
+    });
+  </script>
