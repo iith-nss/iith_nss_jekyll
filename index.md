@@ -39,7 +39,7 @@ title: Home
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 30px;
+    font-size: 28px;
     font-weight: bold;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
     pointer-events: none; /* Ensure text does not interfere with hover */
@@ -86,6 +86,12 @@ title: Home
     display: none; /* Hide the text on hover (optional) */
   }
 
+  /* Remove blur when image is touched or clicked */
+  .image-wrapper1:active img,
+  .image-wrapper1:focus img {
+    filter: none; /* Remove blur on touch */
+  }
+  
   /* Hiding the scrollbar for a cleaner look */
   .Event-cards1::-webkit-scrollbar {
     display: none; /* For WebKit browsers */
