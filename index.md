@@ -48,7 +48,9 @@ title: Home
 .image-wrapper1:hover .overlay-text1 {
     display: none; /* Hide the text on hover (optional) */
 }
-
+.Event-cards1::-webkit-scrollbar {
+    display: none; /* For WebKit browsers */
+}
 @media screen and (max-width: 768px) {
  .Event-cards1 {
     display: flex;
