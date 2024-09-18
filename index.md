@@ -73,7 +73,7 @@ title: Home
   .image-wrapper1 img {
     width: 90%; /* Make images 90% of the screen width */
     height: 200px; /* Smaller height for mobile */
-    border-radius: 10px;
+    border-radius: 7px;
     object-fit: cover; /* Maintain aspect ratio while filling the container */
     filter: blur(5px); /* Keep the blur initially */
     transition: filter 0.5s ease;
