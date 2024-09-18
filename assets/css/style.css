@@ -199,7 +199,6 @@ html {
   width: 100%;
   box-shadow: 0 0 30px rgba(255, 255, 255, 0.3), 0 0 60px rgba(255, 255, 255, 0.2), 0 0 100px rgba(255, 255, 255, 0.1);
   transition: box-shadow 0.7s ease;
-  animation: pulse-glow 3s infinite;
 }
 #home-mobile {
   background-image: url(../images/Updated_Cover\(mobile\).png);
@@ -211,11 +210,11 @@ html {
   width: 100%;
   box-shadow: 0 0 30px rgba(255, 255, 255, 0.3), 0 0 60px rgba(255, 255, 255, 0.2), 0 0 100px rgba(255, 255, 255, 0.1);
   transition: box-shadow 0.7s ease;
-  animation: pulse-glow 3s infinite;
 }
 
 #home-desktop:hover, #home-mobile:hover {
   box-shadow: 0 0 60px rgba(255, 255, 255, 0.6), 0 0 100px rgba(255, 255, 255, 0.4), 0 0 150px rgba(255, 255, 255, 0.3);
+  animation: pulse-glow 2s infinite;
 }
 
 .glow-effect::after {
