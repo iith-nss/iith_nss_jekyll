@@ -80,6 +80,10 @@ title: Home
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Reduce text shadow */
   }
 
+  .image-wrapper1:hover .overlay-text1 {
+    display: none; /* Hide the text on hover (optional) */
+  }
+
   /* Hiding the scrollbar for a cleaner look */
   .Event-cards1::-webkit-scrollbar {
     display: none; /* For WebKit browsers */
