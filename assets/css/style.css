@@ -158,7 +158,7 @@ html {
   padding: 0;
 }
 
-additional sections
+/* /*additional sections
 .typing-effect-desktop,.typing-effect-mobile {
   color: white;
   white-space: nowrap;
@@ -171,7 +171,7 @@ additional sections
 
 .typing-effect-mobile {
   font-size: 2vw;
-}
+} */
 
 /* @keyframes typing {
   from { 
@@ -190,22 +190,30 @@ additional sections
 } */
 
 #home-desktop {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../images/Updated_Cover.png);
+  background-image: url(../images/Updated_Cover.png);
   background-position: center;
   background-size: cover;
   display: table;
   height: 100%;
   position: relative;
   width: 100%;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1); /* Initial soft glow */
+  transition: box-shadow 0.5s ease;
 }
 #home-mobile {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../images/Updated_Cover\(mobile\).png);
+  background-image: url(../images/Updated_Cover\(mobile\).png);
   background-position: center;
   background-size: cover; 
   display: table;
   height: 100%;
   position: relative;
   width: 100%;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1); /* Initial soft glow */
+  transition: box-shadow 0.5s ease;
+}
+
+#home-desktop:hover, #home-mobile:hover {
+  box-shadow: 0 0 40px rgba(255, 255, 255, 0.3), 0 0 80px rgba(255, 255, 255, 0.2);
 }
 @media (min-width: 768px) {
   .small {
