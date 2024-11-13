@@ -27,6 +27,18 @@ nav a {
     size: 40pc;
     border-radius: 50px;
 }
+
+.navbar .dropdown-menu .dropdown-item {
+  background-color: black !important; /* Ensures black background */
+  color: #87CEEB; /* Text color */
+}
+
+.navbar .dropdown-menu .dropdown-item:hover {
+  background-color: black !important; /* Maintains black background on hover */
+  color: #87CEEB; /* Keeps the text color consistent */
+  text-decoration: none; /* Removes underline */
+}
+
 /*NAVBAR ends*/
 .col-12
   {
