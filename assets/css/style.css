@@ -29,14 +29,14 @@ nav a {
 }
 
 .navbar .dropdown-menu .dropdown-item {
-  background-color: black !important; /* Ensures black background */
-  color: #87CEEB; /* Text color */
+  background-color: black !important; 
+  color: #87CEEB; 
 }
 
 .navbar .dropdown-menu .dropdown-item:hover {
-  background-color: black !important; /* Maintains black background on hover */
-  color: #87CEEB; /* Keeps the text color consistent */
-  text-decoration: none; /* Removes underline */
+  background-color: black !important; 
+  color: #87CEEB; 
+  text-decoration: none; 
 }
 
 /*NAVBAR ends*/
