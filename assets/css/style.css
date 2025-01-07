@@ -92,7 +92,6 @@ html, body {
   height: 100%;
   width: 100%;
   background-color: #000000;
-  cursor: none;
 }
 
 @media only screen and (min-width: 992px){
@@ -101,7 +100,7 @@ html, body {
     height: 60px;
   }
 
-  .custom-cursor {
+  /* .custom-cursor {
     position: fixed;
     width: 20px;
     height: 20px;
@@ -143,7 +142,7 @@ html, body {
   .custom-cursor.hover {
     width: 5px;
     background-color: rgba(255, 255, 255, 0.7);
-  }
+  } */
 }
 
 .bg-body {

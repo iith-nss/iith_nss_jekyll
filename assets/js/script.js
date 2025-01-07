@@ -123,40 +123,40 @@ $(function() {
 //   typeText("typing-text-mobile");
 // });
 
-const cursor = document.createElement('div');
-cursor.classList.add('custom-cursor');
-document.body.appendChild(cursor);
+// const cursor = document.createElement('div');
+// cursor.classList.add('custom-cursor');
+// document.body.appendChild(cursor);
 
-const trailCount = 5;
-const trails = [];
-for (let i=0; i < trailCount; i++) {
-  const trail = document.createElement('div');
-  trail.classList.add('cursor-trail');
-  document.body.appendChild(trail);
-  trails.push(trail);
-}
+// const trailCount = 5;
+// const trails = [];
+// for (let i=0; i < trailCount; i++) {
+//   const trail = document.createElement('div');
+//   trail.classList.add('cursor-trail');
+//   document.body.appendChild(trail);
+//   trails.push(trail);
+// }
 
-document.addEventListener('mousemove', (e) => {
-  cursor.style.left = `${e.clientX}px`;
-  cursor.style.top = `${e.clientY}px`;
+// document.addEventListener('mousemove', (e) => {
+//   cursor.style.left = `${e.clientX}px`;
+//   cursor.style.top = `${e.clientY}px`;
 
-  trails.forEach((trail, index) => {
-    setTimeout(() => {
-      trail.style.left = `${e.clientX}px`;
-      trail.style.top = `${e.clientY}px`;
-      trail.style.opacity = 1;
-    }, index * 50);
-  });
-});
+//   trails.forEach((trail, index) => {
+//     setTimeout(() => {
+//       trail.style.left = `${e.clientX}px`;
+//       trail.style.top = `${e.clientY}px`;
+//       trail.style.opacity = 1;
+//     }, index * 50);
+//   });
+// });
 
-document.querySelectorAll('a,button').forEach((element) => {
-  element.addEventListener('mouseenter', () => {
-    cursor.classList.add('hover');
-  });
-  element.addEventListener('mouseleave', () => {
-    cursor.classList.remove('hover');
-  });
-});
+// document.querySelectorAll('a,button').forEach((element) => {
+//   element.addEventListener('mouseenter', () => {
+//     cursor.classList.add('hover');
+//   });
+//   element.addEventListener('mouseleave', () => {
+//     cursor.classList.remove('hover');
+//   });
+// });
 
 
     document.addEventListener('DOMContentLoaded', function () {
