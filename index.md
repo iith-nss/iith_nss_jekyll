@@ -256,7 +256,7 @@ title: Home
         <a href="mailto:office.nss@iith.ac.in"> office.nss@iith.ac.in</a>
         </p>
         <text class="text-light">Phone: </text>
-        <a href="tel:+91 81254 45396">+91 81254 45396</a>
+        <a href="tel:+91 73960 37140">+91 73960 37140</a>
       </div>
 
       <div class="col-11 col-lg-5 mb-4 d-flex justify-content-center">
